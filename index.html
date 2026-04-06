@@ -3,14 +3,202 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <!-- =============================================
+       PRIMARY SEO META TAGS
+       These are what Google reads to understand
+       your page and generate your search result
+       snippet. Title should be ~60 chars max,
+       description ~155 chars max.
+  ============================================= -->
   <title>Golden Paws Pet Grooming | Dog & Cat Grooming in Lexington, MA</title>
-  <meta name="description" content="Professional pet grooming with 20+ years of experience in Lexington, MA. Providing dog & cat grooming serving Lexington, Arlington, Woburn & Metro Boston Area. Book today!" />
-  <meta name="keywords" content="pet grooming Lexington MA, dog grooming Lexington MA, cat grooming, luxury pet grooming Boston, Golden Paws Pet Grooming" />
+  <meta name="description" content="Professional pet grooming with 20+ years of experience in Lexington, MA. Serving Lexington, Arlington, Woburn & Metro Boston. Book online today!" />
+ 
+  <!-- Canonical URL: tells Google the "official"
+       version of this page so www. vs non-www.
+       don't get treated as duplicate content -->
+  <link rel="canonical" href="https://goldenpawspetgrooming.com/" />
+ 
+  <!-- Robots: tells crawlers they can index this
+       page and follow all links on it -->
+  <meta name="robots" content="index, follow" />
+ 
+  <!-- =============================================
+       GOOGLE SEARCH CONSOLE VERIFICATION
+       Replace the content value below with your
+       actual verification code from Search Console.
+       Step-by-step: Search Console → Add Property
+       → URL prefix → enter goldenpawspetgrooming.com
+       → choose "HTML tag" method → copy code here.
+  ============================================= -->
+  <meta name="google-site-verification" content="REPLACE_WITH_YOUR_SEARCH_CONSOLE_CODE" />
+ 
+  <!-- =============================================
+       OPEN GRAPH TAGS (Facebook, iMessage, LinkedIn)
+       These control the preview card that appears
+       when someone shares your link on social media
+       or in a text message. og:image should ideally
+       be a 1200×630px image — the logo works fine.
+  ============================================= -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://goldenpawspetgrooming.com/" />
+  <meta property="og:title"       content="Golden Paws Pet Grooming | Lexington, MA" />
+  <meta property="og:description" content="20+ years of professional dog & cat grooming in Lexington, MA. Serving Metro Boston. Book your appointment online today!" />
+  <meta property="og:image"       content="https://mannydearaujo.github.io/goldenpaws/Golden_Paws_Logo_Design.png" />
+  <meta property="og:site_name"   content="Golden Paws Pet Grooming" />
+  <meta property="og:locale"      content="en_US" />
+ 
+  <!-- =============================================
+       TWITTER CARD TAGS
+       Controls how the link looks when shared on
+       X (Twitter). summary_large_image shows the
+       logo/image prominently above the text.
+  ============================================= -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Golden Paws Pet Grooming | Lexington, MA" />
+  <meta name="twitter:description" content="20+ years of professional dog & cat grooming in Lexington, MA. Book online today!" />
+  <meta name="twitter:image"       content="https://mannydearaujo.github.io/goldenpaws/Golden_Paws_Logo_Design.png" />
+ 
+  <!-- =============================================
+       LOCAL BUSINESS SCHEMA MARKUP (JSON-LD)
+       This is the most impactful SEO addition here.
+       It speaks directly to Google's Knowledge Graph
+       in a structured format Google natively parses.
+       This powers: the hours in search results, the
+       phone number in the map panel, service area,
+       aggregate rating display, and more.
+       PetGroomer is a recognized Google schema type
+       which gives it extra weight in local search.
+  ============================================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "PetGroomer"],
+    "name": "Golden Paws Pet Grooming Inc.",
+    "image": "https://mannydearaujo.github.io/goldenpaws/Golden_Paws_Logo_Design.png",
+    "url": "https://goldenpawspetgrooming.com",
+    "telephone": "+17812749144",
+    "email": "goldenpawslexington@gmail.com",
+    "description": "Professional pet grooming salon with 20+ years of experience in Lexington, MA, serving dogs and cats across Metro Boston.",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "395 Lowell St",
+      "addressLocality": "Lexington",
+      "addressRegion": "MA",
+      "postalCode": "02420",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.4488813,
+      "longitude": -71.1987491
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ],
+    "areaServed": [
+      { "@type": "City", "name": "Lexington", "sameAs": "https://en.wikipedia.org/wiki/Lexington,_Massachusetts" },
+      { "@type": "City", "name": "Arlington", "sameAs": "https://en.wikipedia.org/wiki/Arlington,_Massachusetts" },
+      { "@type": "City", "name": "Woburn",    "sameAs": "https://en.wikipedia.org/wiki/Woburn,_Massachusetts" },
+      { "@type": "City", "name": "Burlington","sameAs": "https://en.wikipedia.org/wiki/Burlington,_Massachusetts" },
+      { "@type": "City", "name": "Winchester","sameAs": "https://en.wikipedia.org/wiki/Winchester,_Massachusetts" },
+      { "@type": "City", "name": "Belmont",   "sameAs": "https://en.wikipedia.org/wiki/Belmont,_Massachusetts" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pet Grooming Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Bath & Tidy Trim",
+            "description": "Gentle warm bath, brush-out, nail trim, ear cleaning, and face-feet-fanny trim."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Full Wash & Cut",
+            "description": "Deep bath, breed-standard cut, blow-dry, ear cleaning, nail trim, sanitary trim, and paw cleaning."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cat Grooming",
+            "description": "Professional cat grooming available on Thursdays."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Senior Dog Package",
+            "description": "Gentle grooming tailored for senior dogs with extra care and patience."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "De-shedding Treatment",
+            "description": "Professional de-shedding treatment to reduce shedding and keep coats healthy."
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "100",
+      "bestRating": "5"
+    },
+    "sameAs": [
+      "https://www.instagram.com/goldenpawspet"
+    ]
+  }
+  </script>
  
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+ 
+  <!-- =============================================
+       GOOGLE ANALYTICS 4
+       This snippet fires on every page load and
+       sends visit data to your GA4 property.
+       Replace G-XXXXXXXXXX with your real
+       Measurement ID after creating your GA4
+       property (instructions below in comments).
+ 
+       HOW TO GET YOUR MEASUREMENT ID:
+       1. Go to analytics.google.com
+       2. Click "Start measuring"
+       3. Account name: Golden Paws Pet Grooming
+       4. Property name: goldenpawspetgrooming.com
+       5. Business category: Pets & Animals
+       6. Choose "Web" as platform
+       7. Enter goldenpawspetgrooming.com as website URL
+       8. Copy the Measurement ID (starts with G-)
+       9. Replace G-XXXXXXXXXX below with that ID
+  ============================================= -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-29DBKD0B56"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-29DBKD0B56');
+  </script>
  
   <style>
     /* =============================================
@@ -419,13 +607,6 @@
       justify-content: center;
     }
     .about-image img { width: 100%; height: 100%; object-fit: cover; }
-    .about-image-placeholder {
-      font-size: 12px;
-      color: var(--navy);
-      opacity: 0.4;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
  
     /* =============================================
        HOW IT WORKS / STEPS
@@ -438,31 +619,31 @@
       color: #fff;
       margin-bottom: 6px;
     }
-    .steps-inner .gold-rule { background: var(--gold); }
     .steps-row {
       display: flex;
       gap: 0;
-      margin-top: 12px;
+      margin-top: 40px;
+      position: relative;
     }
     .step {
       flex: 1;
-      padding: 0 20px;
+      padding: 0 24px;
       position: relative;
     }
     .step:not(:last-child)::after {
       content: '';
       position: absolute;
-      right: 0; top: 18px;
-      width: 1px; height: 44px;
-      background: rgba(201,160,64,0.25);
+      right: 0; top: 20px;
+      width: 1px; height: 60px;
+      background: rgba(255,255,255,0.2);
     }
     .step-num {
-      width: 38px; height: 38px;
+      width: 40px; height: 40px;
       border-radius: 50%;
-      border: 2px solid var(--gold);
-      color: var(--gold);
+      background: var(--gold);
+      color: #fff;
       font-family: var(--serif);
-      font-size: 16px;
+      font-size: 18px;
       font-weight: 700;
       display: flex;
       align-items: center;
@@ -470,85 +651,89 @@
       margin: 0 auto 14px;
     }
     .step h3 {
-      font-family: var(--sans);
-      font-size: 14px;
-      font-weight: 600;
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 700;
       color: #fff;
       margin-bottom: 8px;
     }
-    .step p { font-size: 12px; color: #B8D0E8; line-height: 1.7; }
-    .step .step-contact {
-      margin-top: 8px;
-      font-size: 12px;
-      font-weight: 700;
+    .step p {
+      font-size: 13px;
+      color: rgba(255,255,255,0.75);
+      line-height: 1.7;
+    }
+    .step-contact {
+      margin-top: 10px;
+      font-size: 13px;
+      font-weight: 600;
       color: var(--gold);
     }
-    .steps-cta { text-align: center; margin-top: 36px; }
+    .steps-cta { margin-top: 36px; }
  
     /* =============================================
-       BOOKING SECTION (MoeGo Embed)
+       BOOKING SECTION
     ============================================= */
     .booking-section {
-      padding: 72px 0;
       background: var(--cream);
+      padding: 72px 0;
     }
-    .booking-embed {
-      margin-top: 32px;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--border);
+    .booking-section h2 {
+      font-family: var(--serif);
+      font-size: clamp(24px, 3.5vw, 34px);
+      font-weight: 700;
+      color: var(--red);
+      margin-bottom: 6px;
     }
+    .booking-embed { margin-top: 28px; border-radius: 12px; overflow: hidden; }
  
     /* =============================================
-       LOCATION / FIND US
+       LOCATION SECTION
     ============================================= */
     .location-inner {
       display: flex;
-      gap: 48px;
-      align-items: flex-start;
+      gap: 40px;
+      align-items: stretch;
     }
     .location-map {
       flex: 1;
-      height: 320px;
-      border-radius: 10px;
+      min-height: 360px;
+      border-radius: 12px;
       overflow: hidden;
-      border: 1px solid var(--border);
-      background: #D4E8F5;
+      border: 1px solid #C3D8ED;
     }
-    .location-map iframe { width: 100%; height: 100%; border: none; }
-    .location-info { flex: 1; padding-top: 8px; }
+    .location-info { flex: 1; }
     .location-info h3 {
       font-family: var(--serif);
-      font-size: 26px;
+      font-size: 22px;
       font-weight: 700;
-      color: var(--red);
+      color: var(--navy);
       margin-bottom: 20px;
     }
-    .contact-list { list-style: none; margin-bottom: 24px; }
+    .contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
     .contact-list li {
       display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      font-size: 13px;
-      color: var(--text-mid);
-      padding: 6px 0;
-      border-bottom: 1px solid #f0e8d8;
-      line-height: 1.6;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-dark);
     }
-    .contact-list li:last-child { border-bottom: none; }
     .contact-icon {
-      width: 18px;
-      height: 18px;
+      width: 18px; height: 18px;
       flex-shrink: 0;
-      margin-top: 1px;
     }
-    .area-pills { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 20px; }
+    .area-pills { display: flex; flex-wrap: wrap; gap: 8px; }
     .area-pill {
       font-size: 11px;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--navy);
-      background: var(--light-blue);
-      border: 1px solid #C3D8ED;
+      background: var(--white);
+      border: 1px solid #B8D0E8;
       border-radius: 20px;
       padding: 4px 14px;
     }
@@ -556,63 +741,64 @@
     /* =============================================
        FOOTER
     ============================================= */
-    .site-footer { background: var(--navy); padding: 48px 0 32px; }
+    .site-footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.8);
+      padding: 56px 0 0;
+    }
     .footer-inner {
       display: flex;
-      justify-content: space-between;
+      gap: 48px;
       align-items: flex-start;
-      flex-wrap: wrap;
-      gap: 32px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-      margin-bottom: 24px;
+      padding-bottom: 40px;
     }
-    .footer-logo { height: 60px; width: auto; }
+    .footer-logo {
+      height: 80px;
+      width: auto;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      opacity: 0.85;
+    }
     .footer-links h4 {
       font-family: var(--sans);
-      font-size: 11px;
+      font-size: 10px;
       font-weight: 700;
-      letter-spacing: 2px;
+      letter-spacing: 2.5px;
       text-transform: uppercase;
       color: var(--gold);
       margin-bottom: 14px;
     }
-    .footer-links ul { list-style: none; }
-    .footer-links ul li {
-      font-size: 12px;
-      color: #B8D0E8;
-      padding: 4px 0;
-      line-height: 1.8;
+    .footer-links ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .footer-links li { font-size: 13px; color: rgba(255,255,255,0.65); }
+    .footer-links a { color: rgba(255,255,255,0.65); }
+    .footer-links a:hover { color: #fff; }
+    .footer-cta-area {
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 14px;
     }
-    .footer-links ul li a { color: #B8D0E8; transition: color 0.2s; }
-    .footer-links ul li a:hover { color: var(--gold); }
-    .footer-cta-area { display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
     .footer-tagline {
-      font-size: 10px;
-      color: var(--gold);
-      letter-spacing: 2px;
-      text-transform: uppercase;
+      font-size: 11px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 1px;
       text-align: right;
     }
     .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding: 16px 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
     }
-    .footer-copy { font-size: 11px; color: rgba(255,255,255,0.4); }
+    .footer-copy { font-size: 11px; color: rgba(255,255,255,0.35); }
  
     /* =============================================
-       PAW SVG INLINE ICON
-    ============================================= */
-    .paw-svg { display: inline-block; vertical-align: middle; }
- 
-    /* =============================================
-       RESPONSIVE
+       RESPONSIVE — TABLET & MOBILE
     ============================================= */
     @media (max-width: 768px) {
-      .container { padding: 0 20px; }
       .header-phone { display: none; }
       .header-logo { height: 80px; max-width: 220px; }
       .header-inner { min-height: 80px; }
@@ -652,8 +838,8 @@
       <div class="header-inner">
         <a href="#home">
           <img
-            src="Golden_Paws_Logo_Design.png"
-            alt="Golden Paws Pet Grooming"
+            src="https://mannydearaujo.github.io/goldenpaws/Golden_Paws_Logo_Design.png"
+            alt="Golden Paws Pet Grooming logo"
             class="header-logo"
           />
         </a>
@@ -754,6 +940,9 @@
  
   <!-- =============================================
        GALLERY
+       NOTE: Alt text is now descriptive and unique
+       for each image — this helps Google understand
+       image content and improves image search rankings.
   ============================================= -->
   <section class="section section-blue" id="gallery">
     <div class="container">
@@ -765,15 +954,14 @@
       </div>
  
       <div class="gallery-grid">
-        <!-- Replace src values with your actual before/after photos -->
-        <div class="gallery-cell"><img src="DSC08751.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08679.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08970.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08845.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08792.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08698.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08708.jpg" alt="Dog grooming pet photos" /></div>
-        <div class="gallery-cell"><img src="DSC08806.jpg" alt="Dog grooming pet photos" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08751.jpg" alt="Freshly groomed dog at Golden Paws Pet Grooming in Lexington MA" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08679.jpg" alt="Professional dog grooming result at Golden Paws Lexington" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08970.jpg" alt="Happy groomed pet at Golden Paws grooming salon" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08845.jpg" alt="Dog after full wash and cut at Golden Paws Lexington MA" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08792.jpg" alt="Pet grooming transformation at Golden Paws Metro Boston" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08698.jpg" alt="Breed-standard cut by Golden Paws professional groomers" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08708.jpg" alt="Beautifully groomed dog ready for pickup at Golden Paws" /></div>
+        <div class="gallery-cell"><img src="https://mannydearaujo.github.io/goldenpaws/DSC08806.jpg" alt="Golden Paws pet grooming result — Lexington Massachusetts" /></div>
       </div>
  
       <div class="section-cta">
@@ -795,7 +983,6 @@
       </div>
  
       <div class="reviews-grid">
-        <!-- Replace these with your actual Google reviews -->
         <div class="review-card">
           <div class="review-stars">★★★★★</div>
           <p class="review-text">"Best groomer ever! They really care about my pup and do a wonderful job with my Bernedoodle. I highly recommend them!!!"</p>
@@ -808,7 +995,7 @@
         </div>
         <div class="review-card">
           <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Took our puppy in today for her first grooming! The staff was incredibly thoughtful during the booking process, taking the time to follow up with me and really understand what we were looking for. I was a little nervous since she has some separation anxiety, but she was so excited when she got in that she happy-peed—lol! When we picked her up, we were told she did really well. Couldn’t be happier—overall, it was a wonderful experience, and they did an excellent job. 😊</p>
+          <p class="review-text">"Took our puppy in today for her first grooming! The staff was incredibly thoughtful during the booking process, taking the time to follow up with me and really understand what we were looking for. I was a little nervous since she has some separation anxiety, but she was so excited when she got in that she happy-peed—lol! When we picked her up, we were told she did really well. Couldn't be happier—overall, it was a wonderful experience, and they did an excellent job. 😊"</p>
           <div class="review-author"><strong>Kamryn K.</strong> <span>· Woburn, MA · Google Review</span></div>
         </div>
         <div class="review-card">
@@ -903,7 +1090,7 @@
           <iframe
             src="https://booking.moego.pet/ol/GoldenPawsPetGroomingInc/book?utm_medium=embed"
             width="100%" height="100%" frameBorder="0"
-            title="Online booking" scrolling="no"
+            title="Online booking for Golden Paws Pet Grooming" scrolling="no"
           ></iframe>
         </div>
       </div>
@@ -917,7 +1104,6 @@
     <div class="container">
       <div class="location-inner">
  
-        <!-- Google Maps embed — replace YOUR_API_KEY or use embed URL -->
         <div class="location-map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.0063343529814!2d-71.20120092398352!3d42.44888132948562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39dfc21443009%3A0x76de1e9c183890b0!2s395%20Lowell%20St%2C%20Lexington%2C%20MA%2002420!5e0!3m2!1sen!2sus!4v1775434484011!5m2!1sen!2sus"
@@ -926,7 +1112,7 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Golden Paws Location"
+            title="Golden Paws Pet Grooming location at 395 Lowell St, Lexington MA"
           ></iframe>
         </div>
  
@@ -979,7 +1165,7 @@
  
         <div>
           <img
-            src="Golden_Paws_Logo_Design.png"
+            src="https://mannydearaujo.github.io/goldenpaws/Golden_Paws_Logo_Design.png"
             alt="Golden Paws Pet Grooming"
             class="footer-logo"
           />
@@ -991,7 +1177,7 @@
             <li>395 Lowell St, Lexington, MA 02420</li>
             <li><a href="tel:7812749144">(781) 274-9144</a></li>
             <li><span id="email-footer"></span></li>
-            <li><a href="https://instagram.com/goldenpawspet" target="_blank">@goldenpawspet</a></li>
+            <li><a href="https://instagram.com/goldenpawspet" target="_blank" rel="noopener">@goldenpawspet</a></li>
           </ul>
         </div>
  
@@ -1006,8 +1192,9 @@
  
         <div class="footer-cta-area">
           <a href="#booking" class="btn btn-gold">Book Appointment</a>
-          <div class="footer-tagline">Serving Metro Boston for 20+ Years
+          <div class="footer-tagline">Serving Metro Boston for 20+ Years</div>
         </div>
+ 
       </div>
  
       <div class="footer-bottom">
@@ -1018,6 +1205,8 @@
   </footer>
  
   <script>
+    // Email obfuscation — assembles address at runtime
+    // to prevent spam scrapers from harvesting it
     (function() {
       var u = 'goldenpawslexington';
       var d = 'gmail.com';
